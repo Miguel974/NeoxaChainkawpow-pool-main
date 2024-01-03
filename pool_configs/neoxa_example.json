@@ -2,27 +2,27 @@
     "enabled": true,
     "coin": "neoxa.json",
 
-    "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe",
+    "address": "GQKn52tXuMzmfSEnGY38tj2j8e6erPaMMz",
     
-    "donateaddress": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe",
+    "donateaddress": "GQKn52tXuMzmfSEnGY38tj2j8e6erPaMMz",
 
     "rewardRecipients": {
-	    "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe":0.5
+	    "GQKn52tXuMzmfSEnGY38tj2j8e6erPaMMz":0
     },
 
     "paymentProcessing": {
         "enabled": true,
-        "schema": "PROP",
+        "schema": "SOLO",
         "paymentInterval": 300,
         "minimumPayment": 5,
         "maxBlocksPerPayment": 50000,
         "minConf": 30,
         "coinPrecision": 8,
         "daemon": {
-            "host": "127.0.0.1",
-            "port": 8888,
-            "user": "pool",
-            "password": "password"
+            "host": "192.168.1.37",
+            "port": 9050,
+            "user": "user1",
+            "password": "pass1"
         }
     },
 
@@ -119,10 +119,10 @@
 
     "daemons": [
         {
-            "host": "127.0.0.1",
-            "port": 8888,
-            "user": "pool",
-            "password": "passwordhere"
+            "host": "192.168.1.37",
+            "port": 9050,
+            "user": "user1",
+            "password": "pass1"
         }
     ],
 
